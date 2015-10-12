@@ -1,6 +1,5 @@
-top
-require_relative 'Player'
-require_relative 'Team'
+require_relative 'Player.rb'
+require_relative 'Team.rb'
 player1 = Player.new("Demar", 78, 26); player2 = Player.new("Kyle", 72, 29)
 player3 = Player.new("JV", 83, 23); player4 = Player.new("Demarre", 79, 29)
 Raptors = Team.new("Raptors")
